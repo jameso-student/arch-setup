@@ -13,19 +13,14 @@ sudo pacman -S \
 	rofi \
 	unzip
 
-# Install Oh My Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 # Create .Xresources
 cat xresources_setup > ~/.Xresources
 
-# Install DevaVu Nerd Font
+# Install DejaVu Nerd Font
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.1/DejaVuSansMono.zip
 mkdir -p ~/.local/share/fonts/
-cp DejaVuSansMono.zip ~/.local/share/fonts/
-unzip ~/.local/share/fonts/DejaVuSansMono.zip 
+unzip DejaVuSansMono.zip -d ~/.local/share/fonts/
 rm DejaVuSansMono.zip
-rm ~/.local/share/fonts/DejaVuSansMono.zip
 fc-cache -fv
 
 # Get neovim stuff
@@ -36,3 +31,5 @@ echo "exex i3" > ~/.xinitrc
 sudo systemctl enable lightdm
 startx
 
+# Reboot
+sudo reboot now
