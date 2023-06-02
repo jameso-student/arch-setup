@@ -29,7 +29,7 @@ git clone https://github.com/simmel/urxvt-resize-font.git resize-font
 cp resize-font/resize-font ~/.config/urxvt/ext/
 
 # Get neovim stuff
-cp ./nvim -R ~/config/
+cp ./nvim -R ~/.config/
 
 # Enable X, i3, and ligthdm
 echo "exex i3" > ~/.xinitrc
