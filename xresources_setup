@@ -1,0 +1,47 @@
+URxvt.perl-lib: /home/james/.config/urxvt/ext
+URxvt.perl-ext-common: resize-font
+
+URxvt.keysym.C-minus: resize-font:smaller
+URxvt.keysym.C-plus: resize-font:bigger
+URxvt.keysym.C-equal: resize-font:equal
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt.font: xft:DejaVuSansM Nerd Font:size=15
+! Special
+URxvt.foreground:   #E5E9F0
+URxvt.background:   #2E3440
+URxvt.cursorColor:  #E5E9F0
+
+! black
+URxvt.color0: #2E3440
+URxvt.color8: #4C566A
+
+! red
+URxvt.color1: #88C0D0
+URxvt.color9: #88C0D0
+
+! green
+URxvt.color2:  #BF616A
+URxvt.color10: #BF616A
+
+! yellow
+URxvt.color3:  #5E81AC
+URxvt.color11: #5E81AC
+
+! blue
+URxvt.color4:  #EBCB8B
+URxvt.color12: #EBCB8B
+
+! magenta
+URxvt.color5:  #A3BE8C
+URxvt.color13: #A3BE8C
+
+! cyan
+URxvt.color6:  #D08770
+URxvt.color14: #D08770
+
+! white
+URxvt.color7:  #E5E9F0
+URxvt.color15: #8FBCBB
