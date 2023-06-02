@@ -17,7 +17,7 @@ sudo pacman -S \
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Create .Xresources
-cat .xresources_setup > ~/.Xresources
+cat xresources_setup > ~/.Xresources
 
 # Install DevaVu Nerd Font
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.1/DejaVuSansMono.zip
@@ -28,14 +28,11 @@ rm DejaVuSansMono.zip
 rm ~/.local/share/fonts/DejaVuSansMono.zip
 fc-cache -fv
 
-# Trigger urxvt changes
-sudo xrdb ~/.Xresources 
+# Get neovim stuff
+cp ./nvim -R ~/config/
 
 # Enable X, i3, and ligthdm
 echo "exex i3" > ~/.xinitrc
 sudo systemctl enable lightdm
-sed -i 's/dmenu_run/rofi -show run/' ~/config/i3/config
 startx
 
-# Reboot
-sudo reboot now
