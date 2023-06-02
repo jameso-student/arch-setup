@@ -23,6 +23,11 @@ unzip DejaVuSansMono.zip -d ~/.local/share/fonts/
 rm DejaVuSansMono.zip
 fc-cache -fv
 
+# Set up urxvt extensions
+mkdir -p ~/.config/urxvt/ext/
+git clone https://github.com/simmel/urxvt-resize-font.git resize-font
+cp resize-font/resize-font ~/.config/urxvt/ext/
+
 # Get neovim stuff
 cp ./nvim -R ~/config/
 
