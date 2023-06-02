@@ -9,7 +9,8 @@ sudo pacman -S \
 	git \
 	wget \
 	openssh \
-	zsh \ 
+	zsh \
+	rofi \
 	unzip
 
 # Install Oh My Zsh
@@ -26,3 +27,15 @@ unzip ~/.local/share/fonts/DejaVuSansMono.zip
 rm DejaVuSansMono.zip
 rm ~/.local/share/fonts/DejaVuSansMono.zip
 fc-cache -fv
+
+# Trigger urxvt changes
+sudo xrdb ~/.Xresources 
+
+# Enable X, i3, and ligthdm
+echo "exex i3" > ~/.xinitrc
+sudo systemctl enable lightdm
+sed -i 's/dmenu_run/rofi -show run/' ~/config/i3/config
+startx
+
+# Reboot
+sudo reboot now
