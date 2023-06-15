@@ -8,13 +8,13 @@ sudo pacman -S \
 	rxvt-unicode \
 	git \
 	wget \
-	openssh \
+	curl \
 	zsh \
 	rofi \
 	unzip
 
 # Create .Xresources
-cat xresources_setup > ~/.Xresources
+cat .Xresources > ~/.Xresources
 
 # Install DejaVu Nerd Font
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.1/DejaVuSansMono.zip
