@@ -9,5 +9,6 @@ sudo xrdb ~/.Xresources
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+echo "alias ls=\"ls --color=auto -lah\"" >> ~/.zshrc
 # Reboot 
 sudo reboot now

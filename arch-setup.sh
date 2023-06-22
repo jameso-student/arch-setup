@@ -30,6 +30,7 @@ cp resize-font/resize-font ~/.config/urxvt/ext/
 
 # Get neovim stuff
 cp ./nvim -R ~/.config/
+git clone --depth 1 https://github.com/wbthomason/packer.nvim  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
 # Enable X, i3, and ligthdm
 echo "exex i3" > ~/.xinitrc
