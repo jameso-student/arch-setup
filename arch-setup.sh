@@ -1,18 +1,16 @@
 #!/bin/bash
 sudo pacman -Syu
 sudo pacman -S \
-	i3 \
+	i3 rofi \
 	neovim \
 	lightdm lightdm-gtk-greeter \
 	rxvt-unicode \
-	htop \
-	neofetch \
+	neofetch htop \
 	git \
 	ripgrep \
-	wget \
-	curl \
+	wget curl \
 	zsh \
-	rofi \
+    docker docker-compose \
 	unzip
 
 # Create .Xresources
