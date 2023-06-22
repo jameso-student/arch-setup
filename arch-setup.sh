@@ -3,10 +3,12 @@ sudo pacman -Syu
 sudo pacman -S \
 	i3 \
 	neovim \
-	lightdm \
-	lightdm-gtk-greeter \
+	lightdm lightdm-gtk-greeter \
 	rxvt-unicode \
+	htop \
+	neofetch \
 	git \
+	ripgrep \
 	wget \
 	curl \
 	zsh \
