@@ -3,6 +3,7 @@ sudo pacman -Syu
 sudo pacman -S \
 	i3 rofi \
 	man-db \
+	xclip \
 	nodejs npm \
     firefox \
 	neovim \
