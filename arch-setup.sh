@@ -33,6 +33,7 @@ git clone https://github.com/simmel/urxvt-resize-font.git resize-font
 cp resize-font/resize-font ~/.config/urxvt/ext/
 
 # Get neovim stuff
+mkdir -p ~/.config/nvim
 cp ./nvim/init.lua ~/.config/nvim/init.lua
 cp -r ./nvim/lua ~/.config/nvim/lua
 git clone --depth 1 https://github.com/wbthomason/packer.nvim  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
