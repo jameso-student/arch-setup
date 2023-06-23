@@ -2,10 +2,8 @@
 sudo pacman -Syu
 sudo pacman -S \
 	i3 rofi \
-	man-db \
 	xclip \
 	nodejs npm \
-    firefox \
 	neovim \
 	lightdm lightdm-gtk-greeter \
 	rxvt-unicode \
@@ -14,7 +12,6 @@ sudo pacman -S \
 	ripgrep \
 	wget curl \
 	zsh \
-    docker docker-compose \
 	unzip
 
 # Create .Xresources
