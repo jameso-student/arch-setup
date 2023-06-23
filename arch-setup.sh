@@ -34,8 +34,9 @@ mkdir -p ~/.config/nvim
 cp ./nvim/init.lua ~/.config/nvim/init.lua
 cp -r ./nvim/lua ~/.config/nvim/lua
 git clone --depth 1 https://github.com/wbthomason/packer.nvim  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-nvim --headless -c "source ~/.config/nvim/lua/james/packer.lua" -c "qall"
-nvim --headless -c "PackerSync" -c "qall"
+#nvim --headless -c "source ~/.config/nvim/lua/james/packer.lua" -c "qall"
+#nvim --headless -c "PackerSync" -c "qall"
+nvim ~/.config/lua/james/packer.lua
 cp -r ./nvim/after ~/.config/nvim/after
 
 # Enable X, i3, and ligthdm
