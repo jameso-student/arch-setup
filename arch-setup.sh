@@ -2,6 +2,7 @@
 sudo pacman -Syu
 sudo pacman -S \
 	i3 rofi \
+	nodejs npm \
     firefox \
 	neovim \
 	lightdm lightdm-gtk-greeter \
