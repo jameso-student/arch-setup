@@ -2,6 +2,7 @@
 sudo pacman -Syu
 sudo pacman -S \
 	i3 rofi \
+	man-db \
 	nodejs npm \
     firefox \
 	neovim \
