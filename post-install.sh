@@ -10,5 +10,6 @@ sudo xrdb ~/.Xresources
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "alias ls=\"ls --color=auto -lah\"" >> ~/.zshrc
+echo "alias xsc=\"xclip -selection clipboard\"" >> ~/.zshrc
 # Reboot 
 sudo reboot now
