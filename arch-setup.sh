@@ -33,9 +33,9 @@ git clone https://github.com/simmel/urxvt-resize-font.git resize-font
 cp resize-font/resize-font ~/.config/urxvt/ext/
 
 # Get neovim stuff
-cp ./nvim/init.lua ~/.config/
-cp -r ./nvim/lua ~/.config/
-cp -r ./nvim/plugin ~/.config/
+cp ./nvim/init.lua ~/.config/nvim/
+cp -r ./nvim/lua ~/.config/nvim/
+cp -r ./nvim/plugin ~/.config/nvim/
 git clone --depth 1 https://github.com/wbthomason/packer.nvim  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 nvim --headless -c "source ~/.config/nvim/lua/james/packer.lua" -c "qall"
 nvim --headless -c "PackerSync" -c "qall"
