@@ -9,58 +9,37 @@ URxvt.iso14755: false
 URxvt.iso14755_52: false
 
 URxvt.font: xft:DejaVuSansM Nerd Font:size=15
+*background: #191724 
+*foreground: #e0def4
 
-!Tokyo Night theme
-! general
-*foreground: #a9b1d6
-*background: #1a1b26
-*cursorColor: #a9b1d6
+! overlay + muted
+*color0: #26233a
+*color8: #6e6a86
 
-! terminal padding color
-*borderColor: #1a1b26
+! love
+*color1: #eb6f92
+*color9: #eb6f92
 
-! black
-*color0: #1a1b26
-*color8: #4e5173
+! foam
+*color2: #9ccfd8
+*color10: #9ccfd8
 
-! red
-*color1: #F7768E
-*color9: #F7768E
+! gold
+*color3: #f6c177
+*color11: #f6c177
 
-! green
-*color2: #9ECE6A
-*color10: #9ECE6A
+! pine
+*color4: #31748f
+*color12: #31748f
 
-! yellow
-*color3: #E0AF68
-*color11: #E0AF68
+! iris
+*color5: #c4a7e7
+*color13: #c4a7e7
 
-! blue
-*color4: #7AA2F7
-*color12: #7AA2F7
+! rose
+*color6: #ebbcba
+*color14: #ebbcba
 
-! magenta
-*color5: #9a7ecc
-*color13: #9a7ecc
-
-! cyan
-*color6: #4abaaf
-*color14: #4abaaf
-
-! white
-*color7: #acb0d0
-*color15: #acb0d0
-! Tokyo Night theme ends
-
-! Rofi
-rofi.font: monospace 12
-rofi.padding: 20
-rofi.line-padding: 2
-rofi.color-enabled: true
-rofi.hide-scrollbar: true
-rofi.separator-style: solid
-rofi.color-window: #1c2023, #919ba0, #1c2023
-rofi.color-normal: #1c2023, #919ba0, #1c2023, #a4a4a4, #1c2023
-rofi.color-urgent: argb:00000000, #f43753, argb:00000000, argb:00000000, #e29a49
-rofi.color-active: argb:00000000, #49bbfb, argb:00000000, argb:00000000, #e29a49
-rofi.kb-cancel: Escape,Alt+F1
+! text
+*color7: #e0def4
+*color15: #e0def4
