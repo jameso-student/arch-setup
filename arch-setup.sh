@@ -12,6 +12,7 @@ sudo pacman -S \
 	ripgrep \
 	wget curl \
 	zsh \
+	rsync reflector \
 	unzip
 
 # Create .Xresources
@@ -26,7 +27,6 @@ fc-cache -fv
 
 # Set up urxvt extensions
 mkdir -p ~/.config/urxvt/ext/
-git clone https://github.com/simmel/urxvt-resize-font.git resize-font
 cp resize-font/resize-font ~/.config/urxvt/ext/
 
 # Get neovim stuff
